@@ -9,7 +9,7 @@
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     padding: 40px;
     box-sizing: border-box;
-    display: flex; 
+    display: flex;
 }
 
 
@@ -57,9 +57,9 @@ p {
 
 .qr-code-section {
     margin-top: 30px;
-    max-width: 300px; /* Adjust as needed */
+    max-width: 300px;
     text-align: center;
-  }
+}
 
 
 .github-qr {
@@ -70,13 +70,12 @@ p {
 
 input[type="text"],
 input[type="password"] {
-    /* padding: 7px 88px; */
     height: 25px;
     width: 334px;
-    background-color: #1E1F22; 
-    color: #fff; 
-    border: 1px solid #ccc; 
-    border-radius: 5px; 
+    background-color: #1E1F22;
+    color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
 }
 
 input[type="text"]:focus,
@@ -89,21 +88,20 @@ input[type="password"]:focus {
 .footer {
     display: block;
     text-align: left;
-    color: #ccc; 
+    color: #ccc;
 }
 
 
 .left-box,
 .right-box {
-  flex: 1; /* Equal width for both boxes */
-  padding: 20px;
+    flex: 1;
+    padding: 20px;
 }
 
 .left-box {
-  background-color: #313338; /* Left box background color */
+    background-color: #313338;
 }
 
-/* Additional styling for the right box */
 .right-box {
-  background-color: #313338; /* Right box background color */
+    background-color: #313338;
 }
